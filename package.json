@@ -2,14 +2,15 @@
   "name": "avon-inf-comercial",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^19.9.0"
+    "dotenv": "^16.0.3",
+    "playwright": "^1.32.3"
   },
   "devDependencies": {
     "eslint": "^8.38.0",
